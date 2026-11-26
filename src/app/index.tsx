@@ -57,6 +57,28 @@ export default function Index() {
         >
           <Text style={styles.linkText}>Extra 2</Text>
         </Link>
+
+        <Link href="/test-components" style={styles.link}>
+          <Text style={styles.linkText}>Test Components</Text>
+        </Link>
+
+        <Link href="/test-greeting" style={styles.link}>
+          <Text style={styles.linkText}>Test Greeting</Text>
+        </Link>
+
+        <Link href="/travel" style={styles.link}>
+          <Text style={styles.linkText}>Travel</Text>
+        </Link>
+
+        <Link href="/resort" style={styles.link}>
+          <Text style={styles.linkText}>Resort</Text>
+        </Link>
+
+        <Link href="/review" style={styles.link}>
+          <Text style={styles.linkText}>Review</Text>
+        </Link>
+
+        
       </View>
     </ScrollView>
   );
